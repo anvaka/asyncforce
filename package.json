@@ -1,0 +1,35 @@
+{
+  "name": "ngraph.asyncforce",
+  "version": "0.0.1",
+  "description": "Force directed graph layout with web workers",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js",
+    "start": "browserify --noparse=three ./demo/index.js > ./demo/bundle.js"
+  },
+  "browserify": {
+    "transform": "workerify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anvaka/ngraph.asyncforce.git"
+  },
+  "keywords": [
+    "ngraph",
+    "ngraphjs"
+  ],
+  "author": "Andrei Kashcha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anvaka/ngraph.asyncforce/issues"
+  },
+  "devDependencies": {
+    "ngraph.forcelayout": "0.0.16",
+    "ngraph.generators": "0.0.13",
+    "three": "^0.70.0",
+    "workerify": "^0.3.0"
+  },
+  "dependencies": {
+    "ngraph.forcelayout": "0.0.16"
+  }
+}
