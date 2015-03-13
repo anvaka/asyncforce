@@ -1,5 +1,5 @@
 {
-  "name": "ngraph.asyncforce",
+  "name": "asyncforceexperiment",
   "version": "0.0.1",
   "private": true,
   "description": "Force directed graph layout with web workers",
